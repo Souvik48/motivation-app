@@ -18,6 +18,7 @@
     align-items: center;
 
     text-align: center;
+    flex-direction: column;
 }
 
 .card{
@@ -42,7 +43,7 @@
 }
 
 .button {
-    position: relative;
+    position: static;
     outline: none;
     text-decoration: none;
     border-radius: 50px;
@@ -50,8 +51,9 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    
     text-transform: uppercase;
-    height: 200px;
+    height: 50px;
     width: 210px;
     opacity: 1;
     background-color: #ffffff;
@@ -65,7 +67,7 @@
     letter-spacing: 0.7px;
   }
     
-  .button:hover {
+  /* .button:hover {
     animation: rotate 0.7s ease-in-out both;
   }
     
@@ -109,7 +111,7 @@
       transform: translate3d(0, 0, 0) translateZ(0);
     }
   }  
-  
+   */
   @media only screen and (max-width: 600px) {
     .card {
         width: 80%;

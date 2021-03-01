@@ -39,10 +39,12 @@
             
                 <div className="card">
                     <h1 className="heading">{advice}</h1>
-                    <button className="button" onClick={this.fetchAdvice}>
-                        <span>GIVE ME MOTIVATION</span>
-                    </button>
+                    
                 </div>
+                <br/>
+                <button className="button" onClick={this.fetchAdvice}>
+                        <span>SHOW ME SOME OTHER QUOTES!</span>
+                    </button>
             </div>
             );
     }
