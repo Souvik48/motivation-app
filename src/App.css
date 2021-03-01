@@ -22,8 +22,8 @@
 
 .card{
     background-color: whitesmoke;
-    width: 40%;
-    height: 30%;
+    width: 45%;
+    height: 36%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -113,6 +113,6 @@
   @media only screen and (max-width: 600px) {
     .card {
         width: 80%;
-        height: 30%;
+        height: 40%;
     }
   }
